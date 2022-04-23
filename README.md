@@ -5,8 +5,21 @@ A simple system for registrate students to courses.
 
 # How to setup project
 
+1. Clone
+
 	git clone https://github.com/Rafaelbf84/schoolRegistration.git
+
+2. Run MySQL
+
+	docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=1234 -e MYSQL_DATABASE=studentdb -e MYSQL_USER=sa -e MYSQL_PASSWORD=1234 mysql:5.7
+
+3. Build
+	
 	cd schoolRegistration
+	mvn clean install
+
+4. Run
+
 	docker-composer up
 
 
