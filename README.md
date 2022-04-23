@@ -1,6 +1,14 @@
+
 # SchoolRegistration
 
 A simple system for registrate students to courses.
+
+# How to setup project
+
+	git clone https://github.com/Rafaelbf84/schoolRegistration.git
+	cd schoolRegistration
+	docker-composer up
+
 
 # Endpoints and payloads
 
