@@ -2,6 +2,7 @@
 # SchoolRegistration
 
 A simple system for registrate students to courses.
+The purpose is to exercise spring-boot, mysql, and docker-compose.
 
 # How to setup project
 
